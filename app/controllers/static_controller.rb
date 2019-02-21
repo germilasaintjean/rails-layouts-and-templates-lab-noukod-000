@@ -1,5 +1,6 @@
 class StaticController < ApplicationController
+ layout 'admin'
   def home
-    visit :home
+  
   end
 end
