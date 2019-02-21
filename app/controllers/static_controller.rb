@@ -1,6 +1,6 @@
 class StaticController < ApplicationController
  layout 'static'
   def home
-  render :layout => 'home'
+  visit :home
   end
 end
