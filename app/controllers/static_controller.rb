@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-layout 'home'
+layout 'application'
   def home
   end
 end
